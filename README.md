@@ -27,6 +27,7 @@ It currently supports:
 * Polis
 * Ufo
 * Viacoin
+* Bitcoinplus
 
 ## Prerequisite
 
