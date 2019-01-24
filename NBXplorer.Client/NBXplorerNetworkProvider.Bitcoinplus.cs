@@ -7,11 +7,11 @@ namespace NBXplorer
 {
     public partial class NBXplorerNetworkProvider
     {
-		private void InitFeathercoin(NetworkType networkType)
+		private void InitBitcoinplus(NetworkType networkType)
 		{
 			Add(new NBXplorerNetwork(NBitcoin.Altcoins.Bitcoinplus.Instance, networkType)
 			{
-				MinRPCVersion = 160000
+				MinRPCVersion = 130000
 			});
 		}
 
